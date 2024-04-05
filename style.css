@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.my-form{
+    background-color: rgb(253,247,232);
+    width:1400px;
+    height: 800px;
+    display:flex;
+}
+@font-face {
+    font-family: 'mediumfont';
+    src: url(./fonts/Mona-Sans-Medium.ttf);
+}
+@font-face {
+    font-family: 'regularfont';
+    src: url(./fonts/Mona-Sans-Regular.ttf);
+}
+@font-face {
+    font-family: 'lightfont';
+    src: url(./fonts/Mona-Sans-Light.ttf);
+}
+#UI{
+    font-family: 'mediumfont';
+    font-weight: 600;
+    font-size: 1em;
+}
+.element{
+    background-color: rgb(255,255,255);
+    width:30%;
+    height: 620px;
+    position: relative;
+    top:60px;
+    left: 220px;
+    padding: 40px;
+}
+#signform{
+    font-family: 'regularfont';
+    font-weight: 600;
+    font-size: 0.875em;
+}
+.first-element{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    margin: 1em;
+    font-size: 0.75em ;
+    line-height: 1.6;
+}
+.form input[type=text]{
+    width: 100%;
+    padding: 10px 6px;
+    margin: 4px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    font-size: 0.5em;
+  }
+  .form input[type=password]{
+    width: 100%;
+    padding: 10px 6px;
+    margin: 4px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+  }
+.sm{
+    display: flex;  
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.log{
+    font-size: 0.5em;
+    display: flex;
+    justify-content: center;
+}
+.log a{
+    text-decoration: none;
+    color: black;
+    margin-left: 0.5rem;
+}
+#or{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    font-size: 0.5em;
+    margin-bottom: 20px;
+}
+.box a{
+    text-decoration: none;
+    color: black;
+}
+input[type="checkbox"]{
+    transform: scale(0.875);
+}
+.btn{
+    background-color: black;
+    color: white;
+    border: none;
+    width:100%;
+    padding: 10px 110px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    cursor: pointer;
+    margin: 2px 4px;
+    border-radius: 4px;
+}
+.sm_btn{
+    background-color: rgb(241,244,249);
+    color:black;
+    border: none;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 6px;
+    cursor: pointer;
+    margin: 2px 4px;
+}
+#glg,#apl,#back{
+  margin-right: 1em;
+}
+.fontawesome{
+    font-size: 1em;
+    padding: 5px;
+}
+.form_chart{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.chart{
+    background-color: rgb(253,235,251);
+    width:400px;
+    height: 620px;
+    padding: 40px;
+}
+.rating{
+    background-color: white;
+    width:200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top:24px;
+    left:100px;
+}
+#img{
+    position: relative;
+    top:1em;
+    left: 0.5em;
+}
+.rating p{
+    font-size: 0.5rem;
+}
+.ratingstar{
+    color:gold;
+}
+#star{
+    position: relative;
+    top:14px;
+    font-size: 0.6em;
+}
+.graph{
+    background-color: white;
+    width:250px;
+    height: 300px;
+    position: relative;
+    top:60px;
+    left:40px
+}
+.growth{
+    font-size: 0.75em;
+    position: relative;
+    top:70px;
+    left: 30px;
+}
+#g1{
+    float: left;
+    padding-right: 10px;
+}
+.name{
+    font-size:0.5em;
+}
+#component{
+    font-family: "lightfont";
+    font-weight: 600;
+    position: relative;
+    top:4px;
+    left: 4px;
+}
+#mg{
+    font-family: "lightfont";
+    font-weight: 600;
+}
+  
