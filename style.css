@@ -3,9 +3,13 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    overflow: hidden;
+    zoom:75%;
+}
 .my-form{
     background-color: rgb(253,247,232);
-    width:1400px;
+    width:1750px;
     height: 800px;
     display:flex;
 }
@@ -23,17 +27,34 @@
 }
 #UI{
     font-family: 'mediumfont';
-    font-weight: 600;
+    font-weight: 700;
     font-size: 1em;
+    letter-spacing: 1.5px;
 }
 .element{
     background-color: rgb(255,255,255);
-    width:30%;
+    width:500px;
     height: 620px;
     position: relative;
     top:60px;
     left: 220px;
-    padding: 40px;
+    padding: 55px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    box-shadow: 0px 2px 4px 0px #888888;
+
+}
+.sub-element{
+    position: relative;
+    bottom:20px;
+}
+.base-element{
+    display: inline-flex;
+}
+#c-img{
+    position: relative;
+    top:4px;
+    left: 4px;
 }
 #signform{
     font-family: 'regularfont';
@@ -44,29 +65,38 @@
     display: flex;
     justify-content: space-between;
 }
+#b_ack{
+    font-weight: 300;
+    font-size: 0.7em;
+}
 p{
     margin: 1em;
     font-size: 0.75em ;
     line-height: 1.6;
 }
 .form input[type=text]{
+    background-color: #f1f5f6;
+    border-radius: 10px;
     width: 100%;
-    padding: 10px 6px;
-    margin: 4px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 2px;
-    box-sizing: border-box;
+    height: 20px;
+    padding:15px;
+    border: none;
+  }
+  input[type=text]::placeholder{
     font-size: 0.5em;
+    font-weight: normal;
+    opacity: 0.5;
+  }
+  input[type=password]::placeholder{
+     opacity: 0.5;
   }
   .form input[type=password]{
+    background-color: #f1f5f6;
+    border-radius: 10px;
     width: 100%;
-    padding: 10px 6px;
-    margin: 4px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 2px;
-    box-sizing: border-box;
+    height: 20px;
+    padding:15px;
+    border: none;
   }
 .sm{
     display: flex;  
@@ -109,7 +139,7 @@ input[type="checkbox"]{
     font-size: 10px;
     cursor: pointer;
     margin: 2px 4px;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 .sm_btn{
     background-color: rgb(241,244,249);
@@ -121,6 +151,7 @@ input[type="checkbox"]{
     font-size: 6px;
     cursor: pointer;
     margin: 2px 4px;
+    border-radius: 8px;
 }
 #glg,#apl,#back{
   margin-right: 1em;
@@ -135,19 +166,24 @@ input[type="checkbox"]{
 }
 .chart{
     background-color: rgb(253,235,251);
-    width:400px;
+    width:500px;
     height: 620px;
     padding: 40px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 1px 2px #888888;
+
 }
 .rating{
     background-color: white;
-    width:200px;
-    height: 50px;
+    width:210px;
+    height: 45px;
     display: flex;
     justify-content: space-evenly;
     position: relative;
     top:24px;
-    left:100px;
+    left:150px;
+    border-radius: 10px;
 }
 #img{
     position: relative;
@@ -162,7 +198,8 @@ input[type="checkbox"]{
 }
 #star{
     position: relative;
-    top:14px;
+    top:16px;
+    right:4px;
     font-size: 0.6em;
 }
 .graph{
@@ -171,7 +208,8 @@ input[type="checkbox"]{
     height: 300px;
     position: relative;
     top:60px;
-    left:40px
+    left:100px;
+    border-radius: 10px;
 }
 .growth{
     font-size: 0.75em;
@@ -191,10 +229,26 @@ input[type="checkbox"]{
     font-weight: 600;
     position: relative;
     top:4px;
-    left: 4px;
 }
-#mg{
-    font-family: "lightfont";
-    font-weight: 600;
-}
+.avatar {
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: relative;
+    top:5px;
+    left:12px;
+  }
+  #tick{
+    position: relative;
+    top:25px;
+    right: 10px;
+    left:2px;
+    font-size: 0.5em;
+  }
+  #arrow_img{
+    width:30px;
+    height:20px;
+  }
+  
   
