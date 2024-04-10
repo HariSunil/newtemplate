@@ -254,21 +254,19 @@ input[type="checkbox"]{
     width:30px;
     height:20px;
   }
-  @media screen and (min-width:320px) and (max-width:720px){
+  @media screen and (min-width:340px) and (max-width:720px){
     .form-container{
-        width: 80%;
-        overflow: hidden;
+        width: 90%;
     }
   }
   @media screen and (min-width:720px) and (max-width:1024px){
     .form-container{
         width: 80%;
-        overflow: hidden;
     }
   }
   @media screen and (min-width:1024px){
     .form-container{
-        width: 80%;
-        overflow: hidden;
+        width: 50%;
     }
   }
+  
